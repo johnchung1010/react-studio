@@ -1,9 +1,18 @@
 /* Add styling for your page here */
 
 .App {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 
+.app-col {
+  flex: 1;
 }
 
 .BakeryItem {
-  
+}
+
+ul {
+  list-style-type: none;
 }
